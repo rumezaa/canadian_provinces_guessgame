@@ -35,6 +35,7 @@ def extracting_cords(input):
 
 #move turtle for winning and exitting
 def turtle_moves():
+    screen.clearscreen()
     t.penup()
     t.goto(-40, 0)
     t.pendown()
