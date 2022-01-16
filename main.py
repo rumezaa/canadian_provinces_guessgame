@@ -9,7 +9,6 @@ score=0
 guessed_provinces = []
 game = True
 
-input("Click to exit")
 
 #set turtle screen
 screen.title("rumeza's province guessing game")
@@ -89,3 +88,4 @@ while game==True:
 
 
 screen.mainloop()
+input("Click to exit")
