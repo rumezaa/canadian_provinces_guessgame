@@ -53,7 +53,7 @@ while game==True:
         turtle_moves()
 
     #userinputs province name
-    user_input = turtle.textinput(title="Guess the Province", prompt=f"Enter the full province name\n{score}/13 Correct")
+    user_input = turtle.textinput(title="Guess the Province", prompt=f"Enter the full province name\n{score}/13 Correct\nenter 'exit' to quit")
 
     #return if province is incorrect
     if user_input not in provinces and not "exit":
