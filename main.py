@@ -9,6 +9,7 @@ score=0
 guessed_provinces = []
 game = True
 
+print("Click to exit")
 
 #set turtle screen
 screen.title("rumeza's province guessing game")
