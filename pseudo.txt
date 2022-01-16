@@ -1,0 +1,32 @@
+import  modules
+
+create turtle screen
+use map image as background
+
+
+read csv file with data
+set read data as list
+create list for user to update
+
+Function for extracting coords from csv file:
+    extract the row
+    extract the x and y values
+    return the x and y values
+
+set the score as 0
+
+
+WHILE game is running:
+    use turtle for input
+
+    IF input is in province list:
+        write the province on the screen
+        add input to user list
+        add 1 to the score
+
+    ELIF input is not in the province list:
+        print error and allow user to try again
+
+    IF score is equal to the amount of provinces:
+        print win
+        clear the turtle screen 
