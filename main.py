@@ -26,7 +26,7 @@ unguessed = data.province.to_list()
 
 
 #finding coords of provinces
-def extracting_cords(x,y):
+def extracting_cords(input):
     province_row = data[data.province == input]
     province_xcord = int(province_row.x)
     province_ycord = int(province_row.y)
