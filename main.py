@@ -82,9 +82,13 @@ while game==True:
         unguessed = "\n".join(unguessed)
         print(f"You missed the following Provinces:\n{unguessed}")
         turtle_moves()
+        game = False
+
 
     if score==13:
         turtle_moves()
+        game = False
+
 
 
 
